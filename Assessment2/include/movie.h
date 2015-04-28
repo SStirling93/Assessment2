@@ -17,8 +17,7 @@ class Movie
         // Movie Variables
 
         string  title,
-                director,
-                classification;
+                director;
 
         int duration,
             releaseDate;
