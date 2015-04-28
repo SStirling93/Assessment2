@@ -38,11 +38,13 @@
 		<Unit filename="include/customerCollection.h" />
 		<Unit filename="include/movie.h" />
 		<Unit filename="include/movieCollection.h" />
+		<Unit filename="include/vector.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/customer.cpp" />
 		<Unit filename="src/customerCollection.cpp" />
 		<Unit filename="src/movie.cpp" />
 		<Unit filename="src/movieCollection.cpp" />
+		<Unit filename="src/vector.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
