@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1430219888 source:c:\users\keeper\documents\github\assessment2\assessment2\main.cpp
+	<iostream>
+
+1430220054 source:c:\users\keeper\documents\github\assessment2\assessment2\src\customer.cpp
+	"customer.h"
+
+1430220054 c:\users\keeper\documents\github\assessment2\assessment2\include\customer.h
+
+1430220089 source:c:\users\keeper\documents\github\assessment2\assessment2\src\customercollection.cpp
+	"customerCollection.h"
+
+1430220089 c:\users\keeper\documents\github\assessment2\assessment2\include\customercollection.h
+
+1430220478 source:c:\users\keeper\documents\github\assessment2\assessment2\src\movie.cpp
+	"movie.h"
+
+1430221257 c:\users\keeper\documents\github\assessment2\assessment2\include\movie.h
+	<iostream>
+	<string>
+
+1430220039 source:c:\users\keeper\documents\github\assessment2\assessment2\src\moviecollection.cpp
+	"movieCollection.h"
+
+1430220039 c:\users\keeper\documents\github\assessment2\assessment2\include\moviecollection.h
+
