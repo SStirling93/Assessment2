@@ -22,8 +22,11 @@ class Movie
         int duration,
             releaseDate;
 
-        enum classification {Drama, Adventure, Family, Action, SciFi, Comedy, Animated, Thriller, Other};
-        enum genre {G, PG, M, MA15};
+        enum Classification {Drama, Adventure, Family, Action, SciFi, Comedy, Animated, Thriller, Other};
+        enum Genre {G, PG, M, MA15};
+
+        Classification classification;
+        Genre genre;
 
 
 };

@@ -15,12 +15,13 @@ class customer
 
     private:
     // Note the customer is only allowed to have one dvd copy.
-    const int RentLimit = 10;
+    static const int RENTLIMIT = 10;
 
     string  FName,
             LName,
             Address,
-            rentingrecord[RentLimit];
+
+            rentingRecord[RENTLIMIT];
 
     int phone;
 
