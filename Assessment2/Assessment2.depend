@@ -1,18 +1,22 @@
 # depslib dependency file v1.0
-1430219888 source:c:\users\keeper\documents\github\assessment2\assessment2\main.cpp
+1431133592 source:c:\users\keeper\documents\github\assessment2\assessment2\main.cpp
 	<iostream>
-
-1430220054 source:c:\users\keeper\documents\github\assessment2\assessment2\src\customer.cpp
-	"customer.h"
-
-1430221915 c:\users\keeper\documents\github\assessment2\assessment2\include\customer.h
-	<iostream>
-	<string>
-
-1430220089 source:c:\users\keeper\documents\github\assessment2\assessment2\src\customercollection.cpp
+	<vector>
 	"customerCollection.h"
 
-1430220089 c:\users\keeper\documents\github\assessment2\assessment2\include\customercollection.h
+1431151654 source:c:\users\keeper\documents\github\assessment2\assessment2\src\customer.cpp
+	"customer.h"
+
+1431151698 c:\users\keeper\documents\github\assessment2\assessment2\include\customer.h
+	<iostream>
+	<string>
+	<vector>
+
+1431151654 source:c:\users\keeper\documents\github\assessment2\assessment2\src\customercollection.cpp
+	"customerCollection.h"
+
+1431150965 c:\users\keeper\documents\github\assessment2\assessment2\include\customercollection.h
+	"customer.h"
 
 1430220478 source:c:\users\keeper\documents\github\assessment2\assessment2\src\movie.cpp
 	"movie.h"
@@ -25,4 +29,10 @@
 	"movieCollection.h"
 
 1430220039 c:\users\keeper\documents\github\assessment2\assessment2\include\moviecollection.h
+
+1427908473 source:c:\users\keeper\documents\github\assessment2\assessment2\src\vector.cpp
+	"vector.h"
+
+1426209784 c:\users\keeper\documents\github\assessment2\assessment2\include\vector.h
+	<iostream>
 
