@@ -15,7 +15,7 @@ customerCollection::~customerCollection()
 
 void customerCollection::addCustomers(vector<customer>& newCustomerArchive) {
 
-        bool IsStaff = true;
+        bool IsStaff = false;
 
         string  Names[] = {"Bobby","Kyle","Jason","Mason","Edward"},
                 Surnames[] ={"Smith", "Marsh", "Peterson", "Rock", "Sisscors"},
@@ -28,7 +28,6 @@ void customerCollection::addCustomers(vector<customer>& newCustomerArchive) {
         for (int i=0; i < listSize; i++) {
             customer newCustomer(Names[i], Surnames[i], Address[i], PhoneNumbers[i], Passwords[i], IsStaff);
             newCustomerArchive.push_back(newCustomer);
-            IsStaff = false;
         }
 }
 

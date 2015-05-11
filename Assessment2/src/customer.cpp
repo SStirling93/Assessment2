@@ -4,12 +4,14 @@
     static const int    RENTLIMIT = 10,
                         MaxPin = 5;
 
-customer::customer(string FName, string LName, string Address, int Phone, string pin, bool isStaff)
+
+customer::customer(string FName, string LName, string NewAddress, int Phone, string pin, bool isStaff)
 {
     FirstName = FName;
     LastName = LName;
-    Address = Address;
+    Address = NewAddress;
     PhoneNumber = Phone;
+    staff = isStaff;
 
     setUsername();
     setPassword(pin);

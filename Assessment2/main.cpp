@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 
-    vector<customer> customerArchive;
+
     customerCollection customers;
 
     return 0;
