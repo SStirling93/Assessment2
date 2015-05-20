@@ -4,14 +4,24 @@
     static const int    RENTLIMIT = 10,
                         MaxPin = 5;
 
+customer::customer()
+{
+    this->FirstName = "Staff";
+    this->LastName = "Member";
+    this->staff = true;
+    this->Address = " ";
+    this->PhoneNumber = 0;
+    this->Username = "staff";
+    this->Password = "today123";
+}
 
-customer::customer(string FName, string LName, string NewAddress, int Phone, string pin, bool isStaff)
+customer::customer(string FName, string LName, string NewAddress, int Phone, string pin)
 {
     FirstName = FName;
     LastName = LName;
     Address = NewAddress;
     PhoneNumber = Phone;
-    staff = isStaff;
+    staff = false;
 
     setUsername();
     setPassword(pin);
@@ -27,12 +37,7 @@ void customer::setUsername() {
 }
 
 void customer::setPassword(string pin) {
-    if (staff == true) {
-        Password = "today123";
-    } else {
-            Password = pin;
-
-    }
+    Password = pin;
 }
 
 void customer::rentMovie(string Movie) {
@@ -72,10 +77,7 @@ int customer::getPhoneNumber() const{
 }
 
 bool customer::isStaff(){
-    if (staff == true) {
-        return true;
-    }
-    return false;
+    return this->staff;
 }
 
 

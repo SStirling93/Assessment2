@@ -15,8 +15,6 @@ customerCollection::~customerCollection()
 
 void customerCollection::addCustomers(vector<customer>& newCustomerArchive) {
 
-        bool IsStaff = false;
-
         string  Names[] = {"Bobby","Kyle","Jason","Mason","Edward"},
                 Surnames[] ={"Smith", "Marsh", "Peterson", "Rock", "Sisscors"},
                 Address[] = {"42 Rockhamp st", "37 damuel rd", "55 court av", "2 blunder st" , "14 Samuel court"},
@@ -26,10 +24,18 @@ void customerCollection::addCustomers(vector<customer>& newCustomerArchive) {
         int listSize = 5;
 
         for (int i=0; i < listSize; i++) {
-            customer newCustomer(Names[i], Surnames[i], Address[i], PhoneNumbers[i], Passwords[i], IsStaff);
+            customer newCustomer(Names[i], Surnames[i], Address[i], PhoneNumbers[i], Passwords[i]);
             newCustomerArchive.push_back(newCustomer);
         }
 }
+
+void customerCollection::addCustomer(customer person) {
+    this->customerArchive.push_back(person);
+}
+
+vector<customer> customerCollection::getCustomers(){
+    return this->customerArchive;
+} // end customerCollection::getCustomters();
 
 void customerCollection::printCustomerList(const vector<customer>& newCustomerArchive) {
     unsigned int size = newCustomerArchive.size();

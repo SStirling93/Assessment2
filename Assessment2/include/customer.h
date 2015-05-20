@@ -10,8 +10,9 @@ using namespace std;
 class customer
 {
     public:
-        customer(string FName, string LName, string Address, int Phone, string pin, bool isStaff);
-        virtual ~customer();
+        customer();
+        customer(string FName, string LName, string Address, int Phone, string pin);
+        ~customer();
 
 
     void rentMovie(string Movie);
